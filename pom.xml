@@ -11,6 +11,8 @@
     <description>A Spring Framework application based on JSP, Spring MVC, Spring Data JPA, Hibernate and JDBC</description>
     <url>https://spring-petclinic.github.io/</url>
 
+         
+
     <properties>
 
         <!-- Generic properties -->
@@ -546,6 +548,19 @@
             </dependencies>
         </profile>
    </profiles>
+
+          <distributionManagement>
+  <repository>
+    <id>maven-releases</id>
+    <!-- CHANGE HERE by your team Nexus server -->
+    <url>http://4.240.72.177:8081/repository/maven-releases/</url>
+  </repository>
+  <snapshotRepository>
+    <id>maven-snapshots</id>
+    <!-- CHANGE HERE by your team Nexus server -->
+    <url>http://4.240.72.177:8081/repository/maven-releases/</url>
+  </snapshotRepository>
+</distributionManagement>
 
     <repositories>
         <repository>
