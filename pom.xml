@@ -566,7 +566,7 @@
         </repository>
 
              <repository>
-  <id>maven-releases</id>
+  <id>nexus-releases</id>
   <name>maven-releases</name>
   <url>http://4.240.72.177:8081/repository/maven-releases/</url>
 </repository>
